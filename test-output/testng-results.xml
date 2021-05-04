@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-04T09:59:46 IST" name="Suite" finished-at="2021-05-04T10:01:57 IST" duration-ms="131377">
+    <groups>
+      <group name="Regression">
+        <method signature="BasicFunctionalityTest.navigateToCustomerCare()[pri:2, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" name="navigateToCustomerCare" class="com.testScenarios.BasicFunctionalityTest"/>
+        <method signature="BasicFunctionalityTest.navigateToFreeListing()[pri:1, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" name="navigateToFreeListing" class="com.testScenarios.BasicFunctionalityTest"/>
+        <method signature="BasicFunctionalityTest.navigateToSocial()[pri:3, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" name="navigateToSocial" class="com.testScenarios.BasicFunctionalityTest"/>
+        <method signature="BasicFunctionalityTest.verifyHomeTitle()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" name="verifyHomeTitle" class="com.testScenarios.BasicFunctionalityTest"/>
+        <method signature="CarWashServices.chooseLocation()[pri:2, instance:com.testScenarios.CarWashServices@6f46426d]" name="chooseLocation" class="com.testScenarios.CarWashServices"/>
+        <method signature="CarWashServices.enterService()[pri:4, instance:com.testScenarios.CarWashServices@6f46426d]" name="enterService" class="com.testScenarios.CarWashServices"/>
+        <method signature="CarWashServices.getSearchResults()[pri:7, instance:com.testScenarios.CarWashServices@6f46426d]" name="getSearchResults" class="com.testScenarios.CarWashServices"/>
+        <method signature="CarWashServices.returnToHomePage()[pri:8, instance:com.testScenarios.CarWashServices@6f46426d]" name="returnToHomePage" class="com.testScenarios.CarWashServices"/>
+        <method signature="CarWashServices.verifyCarWashingTitle()[pri:6, instance:com.testScenarios.CarWashServices@6f46426d]" name="verifyCarWashingTitle" class="com.testScenarios.CarWashServices"/>
+        <method signature="CarWashServices.verifyHomeTitle()[pri:0, instance:com.testScenarios.CarWashServices@6f46426d]" name="verifyHomeTitle" class="com.testScenarios.CarWashServices"/>
+        <method signature="FreeListing.fillFormValues()[pri:1, instance:com.testScenarios.FreeListing@7e5afaa6]" name="fillFormValues" class="com.testScenarios.FreeListing"/>
+        <method signature="FreeListing.submitForm()[pri:2, instance:com.testScenarios.FreeListing@7e5afaa6]" name="submitForm" class="com.testScenarios.FreeListing"/>
+        <method signature="GymSubMenuItems.backToHome()[pri:3, instance:com.testScenarios.GymSubMenuItems@fba92d3]" name="backToHome" class="com.testScenarios.GymSubMenuItems"/>
+        <method signature="GymSubMenuItems.subItems()[pri:2, instance:com.testScenarios.GymSubMenuItems@fba92d3]" name="subItems" class="com.testScenarios.GymSubMenuItems"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CarWashServices.clickLocationButton()[pri:1, instance:com.testScenarios.CarWashServices@6f46426d]" name="clickLocationButton" class="com.testScenarios.CarWashServices"/>
+        <method signature="CarWashServices.clickSearchButton()[pri:5, instance:com.testScenarios.CarWashServices@6f46426d]" name="clickSearchButton" class="com.testScenarios.CarWashServices"/>
+        <method signature="CarWashServices.clickSearchTextBox()[pri:3, instance:com.testScenarios.CarWashServices@6f46426d]" name="clickSearchTextBox" class="com.testScenarios.CarWashServices"/>
+        <method signature="FreeListing.clickFreeListingLink()[pri:0, instance:com.testScenarios.FreeListing@7e5afaa6]" name="clickFreeListingLink" class="com.testScenarios.FreeListing"/>
+        <method signature="GymSubMenuItems.clickFitnessLink()[pri:0, instance:com.testScenarios.GymSubMenuItems@fba92d3]" name="clickFitnessLink" class="com.testScenarios.GymSubMenuItems"/>
+        <method signature="GymSubMenuItems.clickGymLink()[pri:1, instance:com.testScenarios.GymSubMenuItems@fba92d3]" name="clickGymLink" class="com.testScenarios.GymSubMenuItems"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-05-04T09:59:46 IST" name="Test1" finished-at="2021-05-04T10:00:22 IST" duration-ms="36746">
+      <class name="com.testScenarios.BasicFunctionalityTest">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" started-at="2021-05-04T09:59:46 IST" name="driverConfig" finished-at="2021-05-04T10:00:05 IST" duration-ms="19502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="verifyHomeTitle()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" started-at="2021-05-04T10:00:05 IST" name="verifyHomeTitle" finished-at="2021-05-04T10:00:05 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeTitle -->
+        <test-method signature="navigateToFreeListing()[pri:1, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" started-at="2021-05-04T10:00:05 IST" name="navigateToFreeListing" finished-at="2021-05-04T10:00:13 IST" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToFreeListing -->
+        <test-method signature="navigateToCustomerCare()[pri:2, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" started-at="2021-05-04T10:00:13 IST" name="navigateToCustomerCare" finished-at="2021-05-04T10:00:16 IST" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCustomerCare -->
+        <test-method signature="navigateToSocial()[pri:3, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" started-at="2021-05-04T10:00:16 IST" name="navigateToSocial" finished-at="2021-05-04T10:00:21 IST" duration-ms="4427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSocial -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@5ace1ed4]" started-at="2021-05-04T10:00:21 IST" name="tearDown" finished-at="2021-05-04T10:00:22 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testScenarios.BasicFunctionalityTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-05-04T10:00:22 IST" name="Test2" finished-at="2021-05-04T10:01:09 IST" duration-ms="47173">
+      <class name="com.testScenarios.CarWashServices">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:22 IST" name="driverConfig" finished-at="2021-05-04T10:00:36 IST" duration-ms="13908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="verifyHomeTitle()[pri:0, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:36 IST" name="verifyHomeTitle" finished-at="2021-05-04T10:00:36 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeTitle -->
+        <test-method signature="clickLocationButton()[pri:1, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:36 IST" name="clickLocationButton" finished-at="2021-05-04T10:00:36 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLocationButton -->
+        <test-method signature="chooseLocation()[pri:2, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:36 IST" name="chooseLocation" finished-at="2021-05-04T10:00:37 IST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseLocation -->
+        <test-method signature="clickSearchTextBox()[pri:3, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:37 IST" name="clickSearchTextBox" finished-at="2021-05-04T10:00:37 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchTextBox -->
+        <test-method signature="enterService()[pri:4, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:37 IST" name="enterService" finished-at="2021-05-04T10:00:38 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterService -->
+        <test-method signature="clickSearchButton()[pri:5, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:38 IST" name="clickSearchButton" finished-at="2021-05-04T10:00:42 IST" duration-ms="3672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchButton -->
+        <test-method signature="verifyCarWashingTitle()[pri:6, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:42 IST" name="verifyCarWashingTitle" finished-at="2021-05-04T10:00:44 IST" duration-ms="1831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarWashingTitle -->
+        <test-method signature="getSearchResults()[pri:7, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:00:44 IST" name="getSearchResults" finished-at="2021-05-04T10:01:07 IST" duration-ms="23424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchResults -->
+        <test-method signature="returnToHomePage()[pri:8, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:01:07 IST" name="returnToHomePage" finished-at="2021-05-04T10:01:09 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.CarWashServices@6f46426d]" started-at="2021-05-04T10:01:09 IST" name="tearDown" finished-at="2021-05-04T10:01:09 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testScenarios.CarWashServices -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-05-04T10:01:09 IST" name="Test3" finished-at="2021-05-04T10:01:36 IST" duration-ms="26825">
+      <class name="com.testScenarios.FreeListing">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.FreeListing@7e5afaa6]" started-at="2021-05-04T10:01:10 IST" name="driverConfig" finished-at="2021-05-04T10:01:23 IST" duration-ms="13274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="clickFreeListingLink()[pri:0, instance:com.testScenarios.FreeListing@7e5afaa6]" started-at="2021-05-04T10:01:23 IST" name="clickFreeListingLink" finished-at="2021-05-04T10:01:26 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFreeListingLink -->
+        <test-method signature="fillFormValues()[pri:1, instance:com.testScenarios.FreeListing@7e5afaa6]" started-at="2021-05-04T10:01:26 IST" name="fillFormValues" finished-at="2021-05-04T10:01:28 IST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormValues -->
+        <test-method signature="submitForm()[pri:2, instance:com.testScenarios.FreeListing@7e5afaa6]" started-at="2021-05-04T10:01:28 IST" name="submitForm" finished-at="2021-05-04T10:01:35 IST" duration-ms="7051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.FreeListing@7e5afaa6]" started-at="2021-05-04T10:01:35 IST" name="tearDown" finished-at="2021-05-04T10:01:36 IST" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testScenarios.FreeListing -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-05-04T10:01:36 IST" name="Test4" finished-at="2021-05-04T10:01:57 IST" duration-ms="20503">
+      <class name="com.testScenarios.GymSubMenuItems">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.GymSubMenuItems@fba92d3]" started-at="2021-05-04T10:01:36 IST" name="driverConfig" finished-at="2021-05-04T10:01:48 IST" duration-ms="11273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method signature="clickFitnessLink()[pri:0, instance:com.testScenarios.GymSubMenuItems@fba92d3]" started-at="2021-05-04T10:01:48 IST" name="clickFitnessLink" finished-at="2021-05-04T10:01:50 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFitnessLink -->
+        <test-method signature="clickGymLink()[pri:1, instance:com.testScenarios.GymSubMenuItems@fba92d3]" started-at="2021-05-04T10:01:50 IST" name="clickGymLink" finished-at="2021-05-04T10:01:52 IST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGymLink -->
+        <test-method signature="subItems()[pri:2, instance:com.testScenarios.GymSubMenuItems@fba92d3]" started-at="2021-05-04T10:01:52 IST" name="subItems" finished-at="2021-05-04T10:01:52 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subItems -->
+        <test-method signature="backToHome()[pri:3, instance:com.testScenarios.GymSubMenuItems@fba92d3]" started-at="2021-05-04T10:01:52 IST" name="backToHome" finished-at="2021-05-04T10:01:55 IST" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.GymSubMenuItems@fba92d3]" started-at="2021-05-04T10:01:55 IST" name="tearDown" finished-at="2021-05-04T10:01:57 IST" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testScenarios.GymSubMenuItems -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
