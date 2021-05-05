@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-04T04:35:13Z" name="Suite" finished-at="2021-05-04T04:37:09Z" duration-ms="116839">
+  <suite started-at="2021-05-05T17:12:41Z" name="Suite" finished-at="2021-05-05T17:14:24Z" duration-ms="102695">
     <groups>
       <group name="Regression">
         <method signature="BasicFunctionalityTest.navigateToCustomerCare()[pri:2, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" name="navigateToCustomerCare" class="com.testScenarios.BasicFunctionalityTest"/>
@@ -29,129 +29,129 @@
         <method signature="GymSubMenuItems.clickGymLink()[pri:1, instance:com.testScenarios.GymSubMenuItems@202b0582]" name="clickGymLink" class="com.testScenarios.GymSubMenuItems"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2021-05-04T04:35:13Z" name="Test1" finished-at="2021-05-04T04:35:34Z" duration-ms="21500">
+    <test started-at="2021-05-05T17:12:41Z" name="Test1" finished-at="2021-05-05T17:13:03Z" duration-ms="21543">
       <class name="com.testScenarios.BasicFunctionalityTest">
-        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-04T10:05:13Z" name="driverConfig" finished-at="2021-05-04T10:05:24Z" duration-ms="11764" status="PASS">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-05T22:42:41Z" name="driverConfig" finished-at="2021-05-05T22:42:49Z" duration-ms="7272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverConfig -->
-        <test-method signature="verifyHomeTitle()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-04T10:05:24Z" name="verifyHomeTitle" finished-at="2021-05-04T10:05:24Z" duration-ms="24" status="PASS">
+        <test-method signature="verifyHomeTitle()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-05T22:42:49Z" name="verifyHomeTitle" finished-at="2021-05-05T22:42:49Z" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeTitle -->
-        <test-method signature="navigateToFreeListing()[pri:1, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-04T10:05:24Z" name="navigateToFreeListing" finished-at="2021-05-04T10:05:28Z" duration-ms="3293" status="PASS">
+        <test-method signature="navigateToFreeListing()[pri:1, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-05T22:42:49Z" name="navigateToFreeListing" finished-at="2021-05-05T22:42:53Z" duration-ms="4064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToFreeListing -->
-        <test-method signature="navigateToCustomerCare()[pri:2, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-04T10:05:28Z" name="navigateToCustomerCare" finished-at="2021-05-04T10:05:30Z" duration-ms="2564" status="PASS">
+        <test-method signature="navigateToCustomerCare()[pri:2, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-05T22:42:53Z" name="navigateToCustomerCare" finished-at="2021-05-05T22:42:57Z" duration-ms="3958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCustomerCare -->
-        <test-method signature="navigateToSocial()[pri:3, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-04T10:05:30Z" name="navigateToSocial" finished-at="2021-05-04T10:05:33Z" duration-ms="2808" status="PASS">
+        <test-method signature="navigateToSocial()[pri:3, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-05T22:42:57Z" name="navigateToSocial" finished-at="2021-05-05T22:43:02Z" duration-ms="4531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToSocial -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-04T10:05:33Z" name="tearDown" finished-at="2021-05-04T10:05:34Z" duration-ms="1027" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.BasicFunctionalityTest@3c77d488]" started-at="2021-05-05T22:43:02Z" name="tearDown" finished-at="2021-05-05T22:43:03Z" duration-ms="1092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testScenarios.BasicFunctionalityTest -->
     </test> <!-- Test1 -->
-    <test started-at="2021-05-04T04:35:34Z" name="Test2" finished-at="2021-05-04T04:36:30Z" duration-ms="55747">
+    <test started-at="2021-05-05T17:13:03Z" name="Test2" finished-at="2021-05-05T17:13:54Z" duration-ms="50758">
       <class name="com.testScenarios.CarWashServices">
-        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:34Z" name="driverConfig" finished-at="2021-05-04T10:05:45Z" duration-ms="11128" status="PASS">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:03Z" name="driverConfig" finished-at="2021-05-05T22:43:10Z" duration-ms="6540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverConfig -->
-        <test-method signature="verifyHomeTitle()[pri:0, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:45Z" name="verifyHomeTitle" finished-at="2021-05-04T10:05:45Z" duration-ms="29" status="PASS">
+        <test-method signature="verifyHomeTitle()[pri:0, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:10Z" name="verifyHomeTitle" finished-at="2021-05-05T22:43:10Z" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeTitle -->
-        <test-method signature="clickLocationButton()[pri:1, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:45Z" name="clickLocationButton" finished-at="2021-05-04T10:05:46Z" duration-ms="312" status="PASS">
+        <test-method signature="clickLocationButton()[pri:1, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:10Z" name="clickLocationButton" finished-at="2021-05-05T22:43:10Z" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLocationButton -->
-        <test-method signature="chooseLocation()[pri:2, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:46Z" name="chooseLocation" finished-at="2021-05-04T10:05:47Z" duration-ms="923" status="PASS">
+        <test-method signature="chooseLocation()[pri:2, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:10Z" name="chooseLocation" finished-at="2021-05-05T22:43:11Z" duration-ms="819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseLocation -->
-        <test-method signature="clickSearchTextBox()[pri:3, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:47Z" name="clickSearchTextBox" finished-at="2021-05-04T10:05:47Z" duration-ms="695" status="PASS">
+        <test-method signature="clickSearchTextBox()[pri:3, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:11Z" name="clickSearchTextBox" finished-at="2021-05-05T22:43:12Z" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSearchTextBox -->
-        <test-method signature="enterService()[pri:4, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:47Z" name="enterService" finished-at="2021-05-04T10:05:48Z" duration-ms="588" status="PASS">
+        <test-method signature="enterService()[pri:4, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:12Z" name="enterService" finished-at="2021-05-05T22:43:13Z" duration-ms="770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterService -->
-        <test-method signature="clickSearchButton()[pri:5, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:48Z" name="clickSearchButton" finished-at="2021-05-04T10:05:50Z" duration-ms="2370" status="PASS">
+        <test-method signature="clickSearchButton()[pri:5, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:13Z" name="clickSearchButton" finished-at="2021-05-05T22:43:15Z" duration-ms="2837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSearchButton -->
-        <test-method signature="verifyCarWashingTitle()[pri:6, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:50Z" name="verifyCarWashingTitle" finished-at="2021-05-04T10:05:51Z" duration-ms="486" status="PASS">
+        <test-method signature="verifyCarWashingTitle()[pri:6, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:15Z" name="verifyCarWashingTitle" finished-at="2021-05-05T22:43:16Z" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCarWashingTitle -->
-        <test-method signature="getSearchResults()[pri:7, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:05:51Z" name="getSearchResults" finished-at="2021-05-04T10:06:28Z" duration-ms="37008" status="PASS">
+        <test-method signature="getSearchResults()[pri:7, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:16Z" name="getSearchResults" finished-at="2021-05-05T22:43:52Z" duration-ms="35658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSearchResults -->
-        <test-method signature="returnToHomePage()[pri:8, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:06:28Z" name="returnToHomePage" finished-at="2021-05-04T10:06:30Z" duration-ms="1863" status="PASS">
+        <test-method signature="returnToHomePage()[pri:8, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:52Z" name="returnToHomePage" finished-at="2021-05-05T22:43:53Z" duration-ms="1889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- returnToHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-04T10:06:30Z" name="tearDown" finished-at="2021-05-04T10:06:30Z" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.CarWashServices@69e153c5]" started-at="2021-05-05T22:43:53Z" name="tearDown" finished-at="2021-05-05T22:43:54Z" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testScenarios.CarWashServices -->
     </test> <!-- Test2 -->
-    <test started-at="2021-05-04T04:36:30Z" name="Test3" finished-at="2021-05-04T04:36:49Z" duration-ms="18727">
+    <test started-at="2021-05-05T17:13:54Z" name="Test3" finished-at="2021-05-05T17:14:09Z" duration-ms="14867">
       <class name="com.testScenarios.FreeListing">
-        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-04T10:06:30Z" name="driverConfig" finished-at="2021-05-04T10:06:40Z" duration-ms="9815" status="PASS">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-05T22:43:54Z" name="driverConfig" finished-at="2021-05-05T22:44:00Z" duration-ms="6316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverConfig -->
-        <test-method signature="clickFreeListingLink()[pri:0, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-04T10:06:40Z" name="clickFreeListingLink" finished-at="2021-05-04T10:06:42Z" duration-ms="2761" status="PASS">
+        <test-method signature="clickFreeListingLink()[pri:0, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-05T22:44:00Z" name="clickFreeListingLink" finished-at="2021-05-05T22:44:03Z" duration-ms="2807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickFreeListingLink -->
-        <test-method signature="fillFormValues()[pri:1, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-04T10:06:42Z" name="fillFormValues" finished-at="2021-05-04T10:06:45Z" duration-ms="2055" status="PASS">
+        <test-method signature="fillFormValues()[pri:1, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-05T22:44:03Z" name="fillFormValues" finished-at="2021-05-05T22:44:04Z" duration-ms="1481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillFormValues -->
-        <test-method signature="submitForm()[pri:2, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-04T10:06:45Z" name="submitForm" finished-at="2021-05-04T10:06:48Z" duration-ms="3706" status="PASS">
+        <test-method signature="submitForm()[pri:2, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-05T22:44:04Z" name="submitForm" finished-at="2021-05-05T22:44:08Z" duration-ms="3941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-04T10:06:48Z" name="tearDown" finished-at="2021-05-04T10:06:49Z" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.FreeListing@5d0bf09b]" started-at="2021-05-05T22:44:08Z" name="tearDown" finished-at="2021-05-05T22:44:09Z" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testScenarios.FreeListing -->
     </test> <!-- Test3 -->
-    <test started-at="2021-05-04T04:36:49Z" name="Test4" finished-at="2021-05-04T04:37:09Z" duration-ms="20815">
+    <test started-at="2021-05-05T17:14:09Z" name="Test4" finished-at="2021-05-05T17:14:24Z" duration-ms="15452">
       <class name="com.testScenarios.GymSubMenuItems">
-        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-04T10:06:49Z" name="driverConfig" finished-at="2021-05-04T10:07:01Z" duration-ms="12351" status="PASS">
+        <test-method is-config="true" signature="driverConfig()[pri:0, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-05T22:44:09Z" name="driverConfig" finished-at="2021-05-05T22:44:14Z" duration-ms="5272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverConfig -->
-        <test-method signature="clickFitnessLink()[pri:0, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-04T10:07:01Z" name="clickFitnessLink" finished-at="2021-05-04T10:07:03Z" duration-ms="2261" status="PASS">
+        <test-method signature="clickFitnessLink()[pri:0, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-05T22:44:14Z" name="clickFitnessLink" finished-at="2021-05-05T22:44:16Z" duration-ms="2406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickFitnessLink -->
-        <test-method signature="clickGymLink()[pri:1, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-04T10:07:03Z" name="clickGymLink" finished-at="2021-05-04T10:07:05Z" duration-ms="2066" status="PASS">
+        <test-method signature="clickGymLink()[pri:1, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-05T22:44:16Z" name="clickGymLink" finished-at="2021-05-05T22:44:19Z" duration-ms="2397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickGymLink -->
-        <test-method signature="subItems()[pri:2, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-04T10:07:05Z" name="subItems" finished-at="2021-05-04T10:07:06Z" duration-ms="459" status="PASS">
+        <test-method signature="subItems()[pri:2, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-05T22:44:19Z" name="subItems" finished-at="2021-05-05T22:44:20Z" duration-ms="966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subItems -->
-        <test-method signature="backToHome()[pri:3, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-04T10:07:06Z" name="backToHome" finished-at="2021-05-04T10:07:09Z" duration-ms="3326" status="PASS">
+        <test-method signature="backToHome()[pri:3, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-05T22:44:20Z" name="backToHome" finished-at="2021-05-05T22:44:23Z" duration-ms="3256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backToHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-04T10:07:09Z" name="tearDown" finished-at="2021-05-04T10:07:09Z" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testScenarios.GymSubMenuItems@202b0582]" started-at="2021-05-05T22:44:23Z" name="tearDown" finished-at="2021-05-05T22:44:24Z" duration-ms="1154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
