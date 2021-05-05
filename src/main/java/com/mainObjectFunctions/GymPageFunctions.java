@@ -22,24 +22,32 @@ public class GymPageFunctions {
 
 		List<WebElement> items = GymPage.getItems(driver);
 		int totalItems = items.size();
+		//System.out.println(totalItems);
 		List<String> options = new ArrayList<String>();
 
-		for (int i = 0; i < totalItems; i++) {
+		for (int i = 0; i <totalItems; i++) {
 
 			String item = items.get(i).getText();
+			options.add(items.get(i).getText());
 			System.out.println(item);
-
-			options.add(item);
-			// System.out.println(options);
+			GymOutputExcel.WriteToExcel(options, totalItems);
+			//System.out.println(options);
 
 		}
-		try {
+		/*try {
 			GymOutputExcel.WriteToExcel(options);
 		} catch (Exception e) {
 			System.out.println();
 		}
 //		
+	}*/
+		//String[] str= new String[totalItems];
+		//for(int i=0;i<totalItems;i++) {
+		//	str[i]=options.get(i);
+		//	GymOutputExcel.WriteToExcel(str,totalItems);
+		//}
 	}
+	
 
 	public static void toHomePage(WebDriver driver) {
 

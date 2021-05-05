@@ -14,6 +14,9 @@ public class CustomerCarePageFunction {
 	public static String getTitleOfCustomerCare(WebDriver driver) {
 		return (driver.getTitle());
 	}
+	public static String customerCareMsg() {
+		return "Successfully navigated to JD Customer care page";
+	}
 	
 	public static void navigateBackToHomePageFromCustomerCare(WebDriver driver) {
 		CustomerCarePage.getCustomerCareBtnToHome(driver).click();

@@ -43,7 +43,7 @@ public class GymSubMenuItems extends BaseUI{
 				logger.log(Status.INFO, "Click on Fitness Link Text");
 				clickFitnessLink(driver);
 				logger.log(Status.PASS, "Successfully clicked on Fitness Link Text");
-				path = ScreenShot.takePassSnapShotGym(driver);
+				path = ScreenShot.takePassSnapShotGym("ClickedFitnessLink_",driver);
 				logger.addScreenCaptureFromPath(path);
 			} catch (Exception e) {
 				logger.log(Status.FAIL, "Cannot click on Fitness Link Text");
@@ -59,7 +59,7 @@ public class GymSubMenuItems extends BaseUI{
 	    		logger.log(Status.INFO, "Click on Gym Link Text");
 	    		FitnessPageFunctions.clickGymLink(driver);
 	    		logger.log(Status.PASS, "Successfully clicked on Gym Link Text");
-				path = ScreenShot.takePassSnapShotGym(driver);
+				path = ScreenShot.takePassSnapShotGym("ClickedGymLink_",driver);
 				logger.addScreenCaptureFromPath(path);
 	    	}
 	    	catch (Exception e) {
@@ -76,7 +76,7 @@ public class GymSubMenuItems extends BaseUI{
 				logger.log(Status.INFO, "Get Sub-Menu Items");
 				GymPageFunctions.searchReults(driver);
 				logger.log(Status.PASS, "Successfully got the Gym Sub Menu Items");
-				path = ScreenShot.takePassSnapShotGym(driver);
+				path = ScreenShot.takePassSnapShotGym("GymSubMenuItems_",driver);
 				logger.addScreenCaptureFromPath(path);
 			} catch (Exception e) {
 				logger.log(Status.FAIL, "Cannot get Gym Sub Menu Items");
@@ -91,7 +91,7 @@ public class GymSubMenuItems extends BaseUI{
 	    		logger.log(Status.INFO, "Going back to Home Page");
 	    		GymPageFunctions.toHomePage(driver);
 	    		logger.log(Status.PASS, "Successfully  back to Home Page");
-				path = ScreenShot.takePassSnapShotGym(driver);
+				path = ScreenShot.takePassSnapShotGym("BackToHome_",driver);
 				logger.addScreenCaptureFromPath(path);
 	    	}
 	    	catch (Exception e) {

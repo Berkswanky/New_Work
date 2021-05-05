@@ -48,6 +48,8 @@ public class CarWashServices extends BaseUI {
 			String actualTitle = "Justdial - Local Search, Social, News, Videos, Shopping";
 			Assert.assertEquals(expectedTitle, actualTitle);
 			logger.log(Status.PASS, "Titled verified successfully");
+			path=ScreenShot.takePassSnapShotCarWash("JustdialHomePage_",driver);
+			logger.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -72,7 +74,7 @@ public class CarWashServices extends BaseUI {
 			logger.log(Status.INFO, "Choose Location from the Location Butthon");
 			selectLocation(driver);
 			logger.log(Status.PASS, "Location choosen");
-			path = ScreenShot.takePassSnapShotCarWash(driver);
+			path = ScreenShot.takePassSnapShotCarWash("ChoosingLocationButton_",driver);
 			logger.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
 			reportFail(e.getMessage());
@@ -86,7 +88,7 @@ public class CarWashServices extends BaseUI {
 			logger.log(Status.INFO, "Click the Search TextBox Button");
 			if(clickSearchBox(driver)) {
 				logger.log(Status.PASS, "Successfully clicked on Search TextBox button");
-				path = ScreenShot.takePassSnapShotCarWash(driver);
+				path = ScreenShot.takePassSnapShotCarWash("SearchTextBox_",driver);
 				logger.addScreenCaptureFromPath(path);
 			}
 			else
@@ -104,7 +106,7 @@ public class CarWashServices extends BaseUI {
 			logger.log(Status.INFO, "Enter 'Car Wash Service' in Search Box");
 			enterService(driver,readCarWash );
 			logger.log(Status.PASS, "Values Entered");
-			path = ScreenShot.takePassSnapShotCarWash(driver);
+			path = ScreenShot.takePassSnapShotCarWash("EnterCarWashService_",driver);
 			logger.addScreenCaptureFromPath(path);
 		}
 		catch(Exception e) {
@@ -136,7 +138,7 @@ public class CarWashServices extends BaseUI {
 			String actualTitle = "Top 100 Car Washing Services in Kolkata - Best Car Cleaning Services - Justdial";
 			Assert.assertEquals(expectedTitle, actualTitle);
 			logger.log(Status.PASS, "Assertion Passed");
-			path = ScreenShot.takePassSnapShotCarWash(driver);
+			path = ScreenShot.takePassSnapShotCarWash("SearchResults_",driver);
 			logger.addScreenCaptureFromPath(path);
 
 		} catch (Exception e) {
@@ -154,7 +156,7 @@ public class CarWashServices extends BaseUI {
 			logger.log(Status.INFO, "Getting Search Results");
 			CarWashFunctions.searchReults(driver);
 			logger.log(Status.PASS, "Got Search Results");
-			path = ScreenShot.takePassSnapShotCarWash(driver);
+			path = ScreenShot.takePassSnapShotCarWash("GettingSearchResults_",driver);
 			logger.addScreenCaptureFromPath(path);
 		}
 		catch(Exception e) {
@@ -172,8 +174,8 @@ public class CarWashServices extends BaseUI {
 			logger.log(Status.INFO, "Navigating Back to Home Page");
 			CarWashFunctions.goBack(driver);
 			logger.log(Status.PASS, "Successfully Navigated back to Home Page");
-			path = ScreenShot.takePassSnapShotCarWash(driver);
-			logger.addScreenCaptureFromPath(path);
+			//path = ScreenShot.takePassSnapShotCarWash(driver);
+			//logger.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
 			logger.log(Status.FAIL, "Cannot Navigated back to Home Page");
 			//FailReport.reportFail(e.getMessage());

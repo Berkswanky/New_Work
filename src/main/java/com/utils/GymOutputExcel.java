@@ -14,7 +14,7 @@ public class GymOutputExcel {
 	
 	static FileOutputStream fout;
 
-	public static void WriteToExcel(List<String> options) {
+	public static void WriteToExcel(List <String> options, int n) {
 
 		XSSFWorkbook workbook = new XSSFWorkbook();
 		XSSFSheet Sheet = workbook.createSheet("Gym Details");
@@ -22,13 +22,21 @@ public class GymOutputExcel {
 		Row FirstRow = Sheet.createRow(0);
 		Cell cell0 = FirstRow.createCell(0);
 		cell0.setCellValue("Gym Page Options");
+		//System.out.println("options size:"+options.size());
+		//int j=0;
+		int optionSize=options.size();
 
-		for (int i = 1; i <=options.size(); i++) {
+		for (int i = 1; i <(optionSize+1);i++) {
 
-			Row rows = Sheet.createRow(i);
+			Row rows = Sheet.createRow(i+2);
 
-			Cell col1 = rows.createCell(0);
-			col1.setCellValue(options.get(i));
+			Cell cell = rows.createCell(0);
+			cell.setCellValue(options.get(i-1));
+			//FirstRow=Sheet.createRow(i+2);
+			 //cell0=FirstRow.createCell(0);
+			//cell0.setCellValue(options.get(i));
+			
+			
 
 		}
 		String path = System.getProperty("user.dir");

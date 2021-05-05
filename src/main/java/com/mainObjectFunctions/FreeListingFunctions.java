@@ -62,6 +62,9 @@ public class FreeListingFunctions {
 		
 		FreeListingPage.getLandLineNumber(driver).sendKeys(readExcelData);
 	}
+	public static String freeListingMsg() {
+		return "Successfully navigated to FreeListing page";
+	}
 	
 	public static void formSubmit(WebDriver driver) {
 		

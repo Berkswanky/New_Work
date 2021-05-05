@@ -60,7 +60,7 @@ public class FreeListing {
 			FreeListingFunctions.mobileNumber(driver,ReadExcelFile.readExcelData(1, 3));
 			FreeListingFunctions.landlineNumber(driver,ReadExcelFile.readExcelData(1, 4));
 			logger.log(Status.PASS, "Values Entered");
-			path = ScreenShot.takePassSnapShotFreeListing(driver);
+			path = ScreenShot.takePassSnapShotFreeListing("EnteringDataFreeListing_",driver);
 			logger.addScreenCaptureFromPath(path);
 		}
 		catch(Exception e) {
@@ -80,12 +80,12 @@ public class FreeListing {
 			String pageURL = FreeListingFunctions.urlAfterSubmit(driver);
 			if(pageURL.equals(ReadExcelFile.readExcelData(4, 0))) {
 			logger.log(Status.PASS, "Cannot Submit - Invalid Data");
-			path = ScreenShot.takePassSnapShotFreeListing(driver);
+			path = ScreenShot.takePassSnapShotFreeListing("SubmitTheForm_",driver);
 			logger.addScreenCaptureFromPath(path);
 			}
 			else {
 				logger.log(Status.FAIL, "Form Submitted with Invalid Data");
-				path = ScreenShot.takePassSnapShotFreeListing(driver);
+				path = ScreenShot.takePassSnapShotFreeListing("SubmitTheForm_",driver);
 			}
 		}
 		catch(Exception e){

@@ -11,6 +11,9 @@ public class SocialPageFunctions {
 		BasePage.getSocialBtn(driver).click();
 	}
 	
+	public static String socialMsg() {
+		return "Successfully navigated to JD Social page";
+	}
 	public static String getTitleOfSocial(WebDriver driver) {
 		return (driver.getTitle());
 	}

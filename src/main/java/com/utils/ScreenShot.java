@@ -26,13 +26,28 @@ public class ScreenShot {
 		
 		}
 	}
+	public static String takePassSnapShotBasicFunctionality(String name, WebDriver driver) {
+		File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		
+		File destFile = new File(
+				System.getProperty("user.dir") + "\\PassScreenShotsBasicFunctionality\\" + name+ DateUtils.getTimeStamp() + ".png");
+		try { 
+			//copy the screenshot to desired location using copyFile method
+			FileUtils.copyFile(sourceFile, destFile);
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+		return destFile.getPath();
+		
+	}
 	
-	public static String takePassSnapShotCarWash(WebDriver driver) {
+	
+	public static String takePassSnapShotCarWash(String name,WebDriver driver) {
 		{
 			File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			
 			File destFile = new File(
-					System.getProperty("user.dir") + "\\PassScreenShotsCarWash\\" + DateUtils.getTimeStamp() + ".png");
+					System.getProperty("user.dir") + "\\PassScreenShotsCarWash\\" + name+ DateUtils.getTimeStamp() + ".png");
 			try { 
 				//copy the screenshot to desired location using copyFile method
 				FileUtils.copyFile(sourceFile, destFile);
@@ -44,12 +59,12 @@ public class ScreenShot {
 		}
 	}
 	
-	public static String takePassSnapShotFreeListing(WebDriver driver) {
+	public static String takePassSnapShotFreeListing(String name,WebDriver driver) {
 		{
 			File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			
 			File destFile = new File(
-					System.getProperty("user.dir") + "\\PassScreenShotsFreeListing\\" + DateUtils.getTimeStamp() + ".png");
+					System.getProperty("user.dir") + "\\PassScreenShotsFreeListing\\" + name+ DateUtils.getTimeStamp() + ".png");
 			try { 
 				//copy the screenshot to desired location using copyFile method
 				FileUtils.copyFile(sourceFile, destFile);
@@ -61,12 +76,12 @@ public class ScreenShot {
 		}
 	}
 	
-	public static String takePassSnapShotGym(WebDriver driver) {
+	public static String takePassSnapShotGym(String name,WebDriver driver) {
 		{
 			File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			
 			File destFile = new File(
-					System.getProperty("user.dir") + "\\PassScreenShotsGym\\" + DateUtils.getTimeStamp() + ".png");
+					System.getProperty("user.dir") + "\\PassScreenShotsGym\\" +name+ DateUtils.getTimeStamp() + ".png");
 			try { 
 				//copy the screenshot to desired location using copyFile method
 				FileUtils.copyFile(sourceFile, destFile);
@@ -77,4 +92,6 @@ public class ScreenShot {
 		
 		}
 	}
+	
 }
+

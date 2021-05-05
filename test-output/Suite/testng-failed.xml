@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.testScenarios.CarWashServices">
+        <methods>
+          <include name="driverConfig"/>
+          <include name="getSearchResults"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testScenarios.CarWashServices -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="com.testScenarios.FreeListing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="submitForm"/>
+          <include name="driverConfig"/>
+          <include name="clickFreeListingLink"/>
+          <include name="fillFormValues"/>
+        </methods>
+      </class> <!-- com.testScenarios.FreeListing -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="com.testScenarios.GymSubMenuItems">
+        <methods>
+          <include name="subItems"/>
+          <include name="backToHome"/>
+          <include name="driverConfig"/>
+          <include name="clickFitnessLink"/>
+          <include name="tearDown"/>
+          <include name="clickGymLink"/>
+        </methods>
+      </class> <!-- com.testScenarios.GymSubMenuItems -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

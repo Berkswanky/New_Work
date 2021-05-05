@@ -8,10 +8,11 @@ import org.openqa.selenium.WebElement;
 
 public class GymPage {
 
-	public static By Items = By.xpath("//*[@id=\"mnintrnlbnr\"]/ul");
+	public static By Items = By.xpath("//*[@id='mnintrnlbnr']/ul/li");
 	
 	public static List<WebElement> getItems(WebDriver driver) {
 		
 		return driver.findElements(Items);
+		//return driver.findElements(By.xpath("//*[@class='meditle1 lng_commn']"));
 	}
 }

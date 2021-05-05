@@ -18,6 +18,7 @@ import com.mainObjectFunctions.SocialPageFunctions;
 import com.utils.DriverSetup;
 import com.utils.ExtentReportFile;
 import com.utils.GetPropertiesFile;
+import com.utils.ScreenShot;
 
 public class BasicFunctionalityTest extends BaseUI {
 
@@ -47,6 +48,8 @@ public class BasicFunctionalityTest extends BaseUI {
 			String actualTitle = "Justdial - Local Search, Social, News, Videos, Shopping";
 			Assert.assertEquals(expectedTitle, actualTitle);
 			logger.log(Status.PASS, "Titled verified successfully");
+			path=ScreenShot.takePassSnapShotBasicFunctionality("HomePage_",driver);
+			logger.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -64,6 +67,9 @@ public class BasicFunctionalityTest extends BaseUI {
 			String actualTitle = "Free Listing - Just Dial - List In Your Business For Free";
 			Assert.assertEquals(expectedTitle, actualTitle);
 			logger.log(Status.PASS, "Titled verified successfully");
+			System.out.println(FreeListingFunctions.freeListingMsg());
+			path=ScreenShot.takePassSnapShotBasicFunctionality("FreeListing_",driver);
+			logger.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -82,6 +88,9 @@ public class BasicFunctionalityTest extends BaseUI {
 			String actualTitle = "Justdial Customer Support - Customer Care for Clients";
 			Assert.assertEquals(expectedTitle, actualTitle);
 			logger.log(Status.PASS, "Titled verified successfully");
+			System.out.println(CustomerCarePageFunction.customerCareMsg());
+			path=ScreenShot.takePassSnapShotBasicFunctionality("CustomerCare_",driver);
+			logger.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
@@ -100,6 +109,9 @@ public class BasicFunctionalityTest extends BaseUI {
 			String actualTitle = "Latest Videos and Articles - JD Social";
 			Assert.assertEquals(expectedTitle, actualTitle);
 			logger.log(Status.PASS, "Titled verified successfully");
+			System.out.println(SocialPageFunctions.socialMsg());
+			path=ScreenShot.takePassSnapShotBasicFunctionality("JDSocial_",driver);
+			logger.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
 			reportFail(e.getMessage());
 		}
